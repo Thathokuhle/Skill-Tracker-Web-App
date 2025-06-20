@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UXWu1VPtP+Q=",
+  "dgSpecHash": "ZSao+y6YT7s=",
   "success": true,
-  "projectFilePath": "C:\\Users\\mrsim\\source\\repos\\SkillTrackerApp\\BusinessLogic\\BusinessLogic.csproj",
+  "projectFilePath": "C:\\Users\\mrsim\\source\\repos\\Thathokuhle\\Skill-Tracker-Web-App\\BusinessLogic\\BusinessLogic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mrsim\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\mrsim\\.nuget\\packages\\azure.core\\1.44.1\\azure.core.1.44.1.nupkg.sha512",

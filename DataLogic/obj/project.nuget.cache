@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UdHNYPJ2tQg=",
+  "dgSpecHash": "GZP72wndaqI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\mrsim\\source\\repos\\SkillTrackerApp\\DataLogic\\DataLogic.csproj",
+  "projectFilePath": "C:\\Users\\mrsim\\source\\repos\\Thathokuhle\\Skill-Tracker-Web-App\\DataLogic\\DataLogic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mrsim\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\9.0.1\\microsoft.aspnetcore.authentication.google.9.0.1.nupkg.sha512",
     "C:\\Users\\mrsim\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\9.0.1\\microsoft.aspnetcore.cryptography.internal.9.0.1.nupkg.sha512",

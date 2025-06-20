@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OugZ1tvtlTk=",
+  "dgSpecHash": "LniBjr0dEw8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\mrsim\\source\\repos\\SkillTrackerApp\\Repository\\Repository.csproj",
+  "projectFilePath": "C:\\Users\\mrsim\\source\\repos\\Thathokuhle\\Skill-Tracker-Web-App\\Repository\\Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mrsim\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\mrsim\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

@@ -23,3 +23,16 @@ C:\Users\mrsim\source\repos\SkillTrackerApp\ViewLogic\obj\Debug\net9.0\ViewLogic
 C:\Users\mrsim\source\repos\SkillTrackerApp\ViewLogic\obj\Debug\net9.0\refint\ViewLogic.dll
 C:\Users\mrsim\source\repos\SkillTrackerApp\ViewLogic\obj\Debug\net9.0\ViewLogic.pdb
 C:\Users\mrsim\source\repos\SkillTrackerApp\ViewLogic\obj\Debug\net9.0\ref\ViewLogic.dll
+C:\Users\mrsim\source\repos\Thathokuhle\Skill-Tracker-Web-App\ViewLogic\bin\Debug\net9.0\ViewLogic.deps.json
+C:\Users\mrsim\source\repos\Thathokuhle\Skill-Tracker-Web-App\ViewLogic\bin\Debug\net9.0\ViewLogic.dll
+C:\Users\mrsim\source\repos\Thathokuhle\Skill-Tracker-Web-App\ViewLogic\bin\Debug\net9.0\ViewLogic.pdb
+C:\Users\mrsim\source\repos\Thathokuhle\Skill-Tracker-Web-App\ViewLogic\obj\Debug\net9.0\ViewLogic.csproj.AssemblyReference.cache
+C:\Users\mrsim\source\repos\Thathokuhle\Skill-Tracker-Web-App\ViewLogic\obj\Debug\net9.0\ViewLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mrsim\source\repos\Thathokuhle\Skill-Tracker-Web-App\ViewLogic\obj\Debug\net9.0\ViewLogic.AssemblyInfoInputs.cache
+C:\Users\mrsim\source\repos\Thathokuhle\Skill-Tracker-Web-App\ViewLogic\obj\Debug\net9.0\ViewLogic.AssemblyInfo.cs
+C:\Users\mrsim\source\repos\Thathokuhle\Skill-Tracker-Web-App\ViewLogic\obj\Debug\net9.0\ViewLogic.csproj.CoreCompileInputs.cache
+C:\Users\mrsim\source\repos\Thathokuhle\Skill-Tracker-Web-App\ViewLogic\obj\Debug\net9.0\ViewLogic.sourcelink.json
+C:\Users\mrsim\source\repos\Thathokuhle\Skill-Tracker-Web-App\ViewLogic\obj\Debug\net9.0\ViewLogic.dll
+C:\Users\mrsim\source\repos\Thathokuhle\Skill-Tracker-Web-App\ViewLogic\obj\Debug\net9.0\refint\ViewLogic.dll
+C:\Users\mrsim\source\repos\Thathokuhle\Skill-Tracker-Web-App\ViewLogic\obj\Debug\net9.0\ViewLogic.pdb
+C:\Users\mrsim\source\repos\Thathokuhle\Skill-Tracker-Web-App\ViewLogic\obj\Debug\net9.0\ref\ViewLogic.dll

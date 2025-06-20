@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IaKT5Z/p5WY=",
+  "dgSpecHash": "WRxOV5DV8rY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\mrsim\\source\\repos\\SkillTrackerApp\\ViewLogic\\ViewLogic.csproj",
+  "projectFilePath": "C:\\Users\\mrsim\\source\\repos\\Thathokuhle\\Skill-Tracker-Web-App\\ViewLogic\\ViewLogic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mrsim\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\9.0.1\\microsoft.aspnetcore.authentication.google.9.0.1.nupkg.sha512"
   ],

@@ -49,11 +49,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mrsim\\source\\repos\\SkillTrackerApp\\ViewLogic\\ViewLogic.csproj",
+      "projectUniqueName": "C:\\Users\\mrsim\\source\\repos\\Thathokuhle\\Skill-Tracker-Web-App\\ViewLogic\\ViewLogic.csproj",
       "projectName": "ViewLogic",
-      "projectPath": "C:\\Users\\mrsim\\source\\repos\\SkillTrackerApp\\ViewLogic\\ViewLogic.csproj",
+      "projectPath": "C:\\Users\\mrsim\\source\\repos\\Thathokuhle\\Skill-Tracker-Web-App\\ViewLogic\\ViewLogic.csproj",
       "packagesPath": "C:\\Users\\mrsim\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mrsim\\source\\repos\\SkillTrackerApp\\ViewLogic\\obj\\",
+      "outputPath": "C:\\Users\\mrsim\\source\\repos\\Thathokuhle\\Skill-Tracker-Web-App\\ViewLogic\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

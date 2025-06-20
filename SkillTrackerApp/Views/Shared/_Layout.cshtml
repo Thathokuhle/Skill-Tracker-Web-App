@@ -32,12 +32,13 @@
                         </li>
                         @if (User.Identity is { IsAuthenticated: true })
                         {
+                            var userEmail = User.Identity?.Name;
                             <li class="nav-item dropdown">
                                 <a class="nav-link text-success dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span class="item-Style"><i class="bi bi-person-fill"></i> Profile</span></a>
                                 <ul class="dropdown-menu dropdown-menu-end shadow mb-5 bg-body-tertiary">
                                     <li class="nav-item d-flex justify-content-center p-0">
                                         <a class="nav-link" href="/Profile/UserProfile">
-                                            <i class="bi bi-person-circle"></i> <span class="ms-1">Profile</span>
+                                            <i class="bi bi-person-circle"></i> <span class="ms-1">@userEmail</span>
                                         </a>
                                     </li>
                                     <li><hr class="dropdown-divider"></li>

@@ -12,11 +12,11 @@ namespace SkillTrackerApp.Pages.Profile
 
         [BindProperty]
         public GetUserByEmailView view { get; set; }
-        public iAccountManager manager;
+        public iAccountManager _iAccount;
 
-        public UserProfileModel(iAccountManager iManager)
+        public UserProfileModel(iAccountManager iAccount)
         {
-            manager = iManager;
+            _iAccount = iAccount;
             view = new GetUserByEmailView();
 
         }
@@ -26,7 +26,7 @@ namespace SkillTrackerApp.Pages.Profile
             var email = User.Identity?.Name;
             if (email != null)
             {
-                view = await manager.GetUserByEmail(email) ?? new GetUserByEmailView();
+                view = await _iAccount.GetUserByEmail(email) ?? new GetUserByEmailView();
             }
             else
             {

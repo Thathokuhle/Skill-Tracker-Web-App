@@ -28,6 +28,8 @@ namespace DataLogic
 
 
         //Admin
+        public DbSet<Admin.GetAllUsers> GetAllUsers { get; set; }
+
         public DbSet<Account.UserRole> UserRoles { get; set; }
 
     }

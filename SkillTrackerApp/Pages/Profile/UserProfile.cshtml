@@ -38,7 +38,7 @@
                         </div>
                         <!-- Card body START -->
                         <div class="card-body">
-                            @if (Model.view.Email == string.Empty)
+                            @if (User.Identity?.Name == string.Empty)
                             {
                                 <div class="container">
                                     <div class="row">
@@ -53,8 +53,6 @@
                                 <div class="d-sm-flex justify-content-center">
                                     <a href="/Profile/CreateAccount" class="btn btn-success mb-2 mb-sm-0">Create Account</a><br />
                                 </div>
-
-
                             }
                             else
                             {
