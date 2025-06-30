@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using DataLogic.Admin;
+using Microsoft.EntityFrameworkCore;
 
 namespace DataLogic
 {
@@ -14,12 +15,17 @@ namespace DataLogic
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            //This is the connection String - Read from the environment variable.
-            //optionsBuilder.UseSqlServer(Environment.GetEnvironmentVariable("ConnectionString"));
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<GetAllUsers>(entity =>
+            {
+                entity.ToTable("User");
+                entity.Property(u => u.Email).HasColumnName("EmailAddress");
+            });
+
+            base.OnModelCreating(modelBuilder);
         }
 
         //entities

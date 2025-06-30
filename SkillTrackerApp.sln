@@ -3,15 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillTrackerApp", "SkillTrackerApp.csproj", "{BC609817-CF69-4FD7-BB54-16E94746C768}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillTrackerApp", "SkillTrackerApp\SkillTrackerApp.csproj", "{BC609817-CF69-4FD7-BB54-16E94746C768}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic", "..\BusinessLogic\BusinessLogic.csproj", "{CA6AFBF8-814A-43C2-90E1-32EFC151243A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{CA6AFBF8-814A-43C2-90E1-32EFC151243A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLogic", "..\DataLogic\DataLogic.csproj", "{8B7A7896-AA48-4FCE-9163-B23B27C812CC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLogic", "DataLogic\DataLogic.csproj", "{8B7A7896-AA48-4FCE-9163-B23B27C812CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "..\Repository\Repository.csproj", "{1A4DB46B-7566-4B1B-82A2-B9AD669678E3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{1A4DB46B-7566-4B1B-82A2-B9AD669678E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewLogic", "..\ViewLogic\ViewLogic.csproj", "{72FD820B-D577-4446-A595-8B74BA971A18}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewLogic", "ViewLogic\ViewLogic.csproj", "{72FD820B-D577-4446-A595-8B74BA971A18}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
