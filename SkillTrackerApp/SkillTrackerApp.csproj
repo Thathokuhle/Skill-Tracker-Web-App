@@ -16,15 +16,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<Content Include="Areas\Identity\Pages\Account\AccessDenied.cshtml.cs" />
-		<Content Include="Areas\Identity\Pages\Account\ExternalLogin.cshtml.cs" />
-		<Content Include="Areas\Identity\Pages\Account\Login.cshtml.cs" />
-		<Content Include="Areas\Identity\Pages\Account\Logout.cshtml.cs" />
-		<Content Include="Areas\Identity\Pages\Account\Manage\ExternalLogins.cshtml.cs" />
-		<Content Include="Areas\Identity\Pages\Account\Manage\ManageNavPages.cs" />
-	</ItemGroup>
-
-	<ItemGroup>
 		<PackageReference Include="AutoMapper" Version="14.0.0" />
 		<PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="9.0.1" />
 		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.1" />
@@ -40,8 +31,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\BusinessLogic\BusinessLogic.csproj" />
-		<ProjectReference Include="..\DataLogic\DataLogic.csproj" />
+	  <Folder Include="Controllers\" />
+	  <Folder Include="Pages\Profile\" />
 	</ItemGroup>
 
 </Project>

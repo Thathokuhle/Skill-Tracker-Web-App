@@ -23,12 +23,9 @@ namespace DataLogic
         }
 
         //entities
-        public DbSet<Account.GetUserByEmail> AccountUserByEmail { get; set; }
-        public DbSet<Account.CreateAccount> CreateAccount { get; set; }
 
 
         //Admin
-        public DbSet<Account.UserRole> UserRoles { get; set; }
 
     }
 }

@@ -1,6 +1,4 @@
-﻿using BusinessLogic.LogicInterfaces;
-using Microsoft.AspNetCore.Mvc.RazorPages;
-using ViewLogic;
+﻿using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace SkillTrackerApp.Pages
 {

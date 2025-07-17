@@ -15,4 +15,9 @@
 		<ProjectReference Include="..\DataLogic\DataLogic.csproj" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Folder Include="ImplementedRepositories\AccountRepositories\" />
+	  <Folder Include="RepositoryInterfaces\" />
+	</ItemGroup>
+
 </Project>

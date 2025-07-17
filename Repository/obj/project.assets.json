@@ -1065,27 +1065,13 @@
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.Google": "9.0.1",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "9.0.1",
-          "Microsoft.EntityFrameworkCore": "9.0.5",
-          "ViewLogic": "1.0.0"
+          "Microsoft.EntityFrameworkCore": "9.0.5"
         },
         "compile": {
           "bin/placeholder/DataLogic.dll": {}
         },
         "runtime": {
           "bin/placeholder/DataLogic.dll": {}
-        }
-      },
-      "ViewLogic/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
-        "dependencies": {
-          "Microsoft.AspNetCore.Authentication.Google": "9.0.1"
-        },
-        "compile": {
-          "bin/placeholder/ViewLogic.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ViewLogic.dll": {}
         }
       }
     }
@@ -2876,11 +2862,6 @@
       "type": "project",
       "path": "../DataLogic/DataLogic.csproj",
       "msbuildProject": "../DataLogic/DataLogic.csproj"
-    },
-    "ViewLogic/1.0.0": {
-      "type": "project",
-      "path": "../ViewLogic/ViewLogic.csproj",
-      "msbuildProject": "../ViewLogic/ViewLogic.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2897,11 +2878,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mrsim\\source\\repos\\Thathokuhle\\Skill-Tracker-Web-App\\Repository\\Repository.csproj",
+      "projectUniqueName": "C:\\Users\\mrsim\\Source\\Repos\\Skill-Tracker-Web-App\\Repository\\Repository.csproj",
       "projectName": "Repository",
-      "projectPath": "C:\\Users\\mrsim\\source\\repos\\Thathokuhle\\Skill-Tracker-Web-App\\Repository\\Repository.csproj",
+      "projectPath": "C:\\Users\\mrsim\\Source\\Repos\\Skill-Tracker-Web-App\\Repository\\Repository.csproj",
       "packagesPath": "C:\\Users\\mrsim\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mrsim\\source\\repos\\Thathokuhle\\Skill-Tracker-Web-App\\Repository\\obj\\",
+      "outputPath": "C:\\Users\\mrsim\\Source\\Repos\\Skill-Tracker-Web-App\\Repository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2922,8 +2903,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\mrsim\\source\\repos\\Thathokuhle\\Skill-Tracker-Web-App\\DataLogic\\DataLogic.csproj": {
-              "projectPath": "C:\\Users\\mrsim\\source\\repos\\Thathokuhle\\Skill-Tracker-Web-App\\DataLogic\\DataLogic.csproj"
+            "C:\\Users\\mrsim\\Source\\Repos\\Skill-Tracker-Web-App\\DataLogic\\DataLogic.csproj": {
+              "projectPath": "C:\\Users\\mrsim\\Source\\Repos\\Skill-Tracker-Web-App\\DataLogic\\DataLogic.csproj"
             }
           }
         }
@@ -2938,7 +2919,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net9.0": {
@@ -2969,7 +2950,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

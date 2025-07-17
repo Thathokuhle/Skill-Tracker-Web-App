@@ -23,9 +23,9 @@
 		<PackageReference Include="MimeKit" Version="4.12.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<ProjectReference Include="..\DataLogic\DataLogic.csproj" />
-		<ProjectReference Include="..\Repository\Repository.csproj" />
-		<ProjectReference Include="..\ViewLogic\ViewLogic.csproj" />
+	  <Folder Include="Managers\AccountManagers\" />
+	  <Folder Include="StaticMappings\" />
+	  <Folder Include="Token\" />
 	</ItemGroup>
 
 </Project>

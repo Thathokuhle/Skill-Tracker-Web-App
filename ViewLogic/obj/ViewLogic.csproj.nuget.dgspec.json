@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mrsim\\source\\repos\\Thathokuhle\\Skill-Tracker-Web-App\\ViewLogic\\ViewLogic.csproj": {}
+    "C:\\Users\\mrsim\\Source\\Repos\\Skill-Tracker-Web-App\\ViewLogic\\ViewLogic.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mrsim\\source\\repos\\Thathokuhle\\Skill-Tracker-Web-App\\ViewLogic\\ViewLogic.csproj": {
+    "C:\\Users\\mrsim\\Source\\Repos\\Skill-Tracker-Web-App\\ViewLogic\\ViewLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mrsim\\source\\repos\\Thathokuhle\\Skill-Tracker-Web-App\\ViewLogic\\ViewLogic.csproj",
+        "projectUniqueName": "C:\\Users\\mrsim\\Source\\Repos\\Skill-Tracker-Web-App\\ViewLogic\\ViewLogic.csproj",
         "projectName": "ViewLogic",
-        "projectPath": "C:\\Users\\mrsim\\source\\repos\\Thathokuhle\\Skill-Tracker-Web-App\\ViewLogic\\ViewLogic.csproj",
+        "projectPath": "C:\\Users\\mrsim\\Source\\Repos\\Skill-Tracker-Web-App\\ViewLogic\\ViewLogic.csproj",
         "packagesPath": "C:\\Users\\mrsim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mrsim\\source\\repos\\Thathokuhle\\Skill-Tracker-Web-App\\ViewLogic\\obj\\",
+        "outputPath": "C:\\Users\\mrsim\\Source\\Repos\\Skill-Tracker-Web-App\\ViewLogic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -71,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
