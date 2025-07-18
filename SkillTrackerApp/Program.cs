@@ -1,15 +1,33 @@
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using SkillTrackerApp.Database;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Add services
+builder.Services.AddDbContext<AuthDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddDefaultIdentity<IdentityUser>(options =>
+{
+    options.SignIn.RequireConfirmedAccount = true;
+})
+.AddEntityFrameworkStores<AuthDbContext>();
+
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.LoginPath = "/Account/Login";
+});
+
+builder.Services.AddAuthorization();
 builder.Services.AddRazorPages();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Configure middleware
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error");
-    // HSTS is used to enforce HTTPS in production
     app.UseHsts();
 }
 
@@ -18,9 +36,8 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-// No authentication or authorization here unless you add Identity
-// app.UseAuthentication();
-// app.UseAuthorization();
+app.UseAuthentication();  
+app.UseAuthorization();
 
 app.MapRazorPages();
 
