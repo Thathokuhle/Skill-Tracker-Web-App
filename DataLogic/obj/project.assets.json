@@ -328,6 +328,19 @@
         "build": {
           "buildTransitive/net8.0/_._": {}
         }
+      },
+      "ViewLogic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Authentication.Google": "9.0.1"
+        },
+        "compile": {
+          "bin/placeholder/ViewLogic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ViewLogic.dll": {}
+        }
       }
     }
   },
@@ -815,13 +828,19 @@
         "microsoft.extensions.primitives.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "ViewLogic/1.0.0": {
+      "type": "project",
+      "path": "../ViewLogic/ViewLogic.csproj",
+      "msbuildProject": "../ViewLogic/ViewLogic.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
       "Microsoft.AspNetCore.Authentication.Google >= 9.0.1",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 9.0.1",
-      "Microsoft.EntityFrameworkCore >= 9.0.5"
+      "Microsoft.EntityFrameworkCore >= 9.0.5",
+      "ViewLogic >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -855,7 +874,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\mrsim\\Source\\Repos\\Skill-Tracker-Web-App\\ViewLogic\\ViewLogic.csproj": {
+              "projectPath": "C:\\Users\\mrsim\\Source\\Repos\\Skill-Tracker-Web-App\\ViewLogic\\ViewLogic.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
